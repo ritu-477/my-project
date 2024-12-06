@@ -11,7 +11,7 @@ const Hero = () => {
     <div className='bg-hero bg-cover lg:bg-[length:100%_100%] bg-center bg-no-repeat lg:h-[810px] pb-12'>
       <Header />
       <div className='container lg:pt-[109px] md:pt-20 sm:pt-16 pt-12'>
-        <div className='flex lg:flex-row flex-col w-full'>
+        <div className='flex lg:flex-row gap-1flex-col w-full'>
           <div className='flex flex-col lg:w-[612px] w-full max-lg:justify-center max-lg:items-center'>
             <h1 className='font-helvetica sm:text-5xl text-3xl xl:text-custom-6xl xl:leading-custom-6xl text-white lg:text-start text-center lg:max-w-[612px]'>Easily Compare <span className='font-bold'>Energy, Gas, And Internet</span> Plans</h1>
             <Description classStyle='text-white lg:max-w-[506px] w-full max-lg:text-center pt-4 opacity-90 pb-8 lg:pb-[42px]' text={'Find and switch to the best energy, gas, and internet plans with ease. Our platform simplifies your search, letting you compare providers and make informed decisions, all in one place.'} />

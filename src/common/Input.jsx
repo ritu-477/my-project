@@ -1,4 +1,3 @@
-import CustomButton from "./CustomButton";
 
 const Input = ({ text, type = "text", classStyle }) => {
     return (
