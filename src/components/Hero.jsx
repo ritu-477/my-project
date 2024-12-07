@@ -18,7 +18,7 @@ const Hero = () => {
                 <CustomButton classStyle="bg-sky-blue text-white ms-2" text="Compare" iconColor="white" />
               </form>
           </div>
-          <div className='relative flex max-lg:justify-center mt-10 lg:mt-0'>
+          <div className='relative flex max-lg:justify-center mt-5 lg:mt-0'>
             <img className='absolute right-[-72px] top-[-58px] dots pointer-events-none xl:max-w-[200px] xl:block hidden' src="/assets/images/webp/dots-ellipse.webp" alt="dots-ellipse" />
             <img className='xl:max-w-[558px] max-w-[500px] lg:h-[760px] pointer-events-none max-lg:w-full relative z-[1]' src="/assets/images/webp/hero-image.webp" alt="hero-image" />
           </div>

@@ -7,4 +7,3 @@ export const NAV_DATA_LINK = [
     { label: 'Why Us', href: '#why' },
     { label: 'FAQ', href: '#faq' },
 ];
-
