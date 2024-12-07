@@ -2,7 +2,6 @@ import React from 'react';
 import { NAV_DATA_LINK } from '../utils/helper';
 import { useEffect, useState } from 'react';
 import CustomButton from '../common/CustomButton';
-import { MENU_ICON_STATES } from '../utils/helper';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
