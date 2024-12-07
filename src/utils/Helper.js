@@ -1,9 +1,9 @@
 
-export const NAV_DATA_LINK = [
-    { label: 'About', href: '#about' },
-    { label: 'How It Works', href: '#works' },
-    { label: 'Services', href: '#services' },
-    { label: 'Testimonials', href: '#testimonials' },
-    { label: 'Why Us', href: '#why' },
-    { label: 'FAQ', href: '#faq' },
+export const NAV_LIST = [
+    { label: 'About', link: '#about' },
+    { label: 'How It Works', link: '#works' },
+    { label: 'Services', link: '#services' },
+    { label: 'Testimonials', link: '#testimonials' },
+    { label: 'Why Us', link: '#why' },
+    { label: 'FAQ', link: '#faq' },
 ];

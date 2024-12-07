@@ -1,3 +1,6 @@
+body{
+    font-family:'helvetica',sans-serif;
+}
 @font-face {
     font-family: 'helvetica';
     src: url("../public/assets/font/Helvetica.ttf");

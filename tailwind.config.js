@@ -15,21 +15,11 @@ module.exports = {
           xl: "1180px",
         },
       },
-      screens: {
-        sm: "640px",
-        md: "768px",
-        lg: "1024px",
-        xl: "1180px",
-      },
 
       colors: {
         'deep-blue': "#00171f",
         'sky-blue': "#00A8E8", 
         'gray': "#CBCBCB",
-      },
-
-      fontFamily: {
-        'helvetica': "'helvetica', sans-serif",
       },
 
       fontSize: {
