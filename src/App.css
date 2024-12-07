@@ -1,20 +1,19 @@
+@font-face {
+    font-family: 'helvetica';
+    src: url("../public/assets/font/Helvetica.ttf");
+    font-weight: 400;
+}
 
- @font-face {
-     font-family: 'helvetica';
-     src: url("./assets/font/Helvetica.ttf");
-     font-weight: 400;
- }
+@font-face {
+    font-family: 'helvetica';
+    src: url("../public//assets/font/HelveticaBold.ttf");
+    font-weight: 700;
+}
 
-  @font-face {
-      font-family: 'helvetica';
-      src: url("./assets/font/HelveticaBold.ttf");
-      font-weight: 700;
-  }
-
-  @media(min-width:1180px) and (max-width:1279.99px){
-        .dots{
-            max-width: 112px;
-            right: -30px;
-            top: -30px;
-        }
-  }
+@media(min-width:1180px) and (max-width:1279.99px) {
+    .dots {
+        max-width: 112px;
+        right: -30px;
+        top: -30px;
+    }
+}

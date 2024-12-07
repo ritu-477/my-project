@@ -42,7 +42,7 @@ module.exports = {
       },
 
       backgroundImage: {
-        'hero': "url('./assets/images/webp/hero-bg-image.webp')",
+        'hero': "url('/public/assets/images/webp/hero-bg-image.webp')",
       },
     },
   },

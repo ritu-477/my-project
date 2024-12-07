@@ -1,8 +1,7 @@
 import React from 'react';
-import { NAV_DATA_LINK} from '../utils/Helper';
+import { NAV_DATA_LINK } from '../utils/helper';
 import { useEffect, useState } from 'react';
 import CustomButton from '../common/CustomButton';
-import navLogo from "../assets/images/webp/nav-logo.webp"
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,24 +30,25 @@ const Header = () => {
 
     return (
         <div className="flex items-center h-20">
+
             <div className="container py-4">
                 <div className="flex justify-between items-center">
-                        <a href="/">
-                        <img className="sm:max-w-[105px] max-w-20" src={navLogo} alt="nav-logo" />
-                        </a>
-                        <div className='lg:block hidden'>
-                            <div className="flex gap-6 items-center">
-                                {NAV_DATA_LINK.map((link, index) => (
-                                    <a onClick={toggleMenu}
-                                        key={index}
-                                        className="font-normal opacity-90 font-helvetica relative after:absolute hover:after:bg-white hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[2px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-300 text-base leading-custom-base text-white"
-                                        href={link.href}
-                                    >
-                                        {link.label}
-                                    </a>
-                                ))}
-                            </div>
+                    <a href="/">
+                        <img className="sm:max-w-[105px] max-w-20" src="/assets/images/webp/nav-logo.webp" alt="nav-logo" />
+                    </a>
+                    <div className='lg:block hidden'>
+                        <div className="flex gap-6 items-center">
+                            {NAV_DATA_LINK.map((link, index) => (
+                                <a onClick={toggleMenu}
+                                    key={index}
+                                    className="font-normal opacity-90 font-helvetica relative after:absolute hover:after:bg-white hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[2px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-300 text-base leading-custom-base text-white"
+                                    href={link.href}
+                                >
+                                    {link.label}
+                                </a>
+                            ))}
                         </div>
+                    </div>
                     <div
                         onClick={toggleMenu}
                         className='menuIcon relative max-sm:w-[30px] max-sm:h-[24px] max-lg:w-[38px] max-lg:h-[28px] z-[15] max-lg:flex max-lg:justify-between max-lg:flex-col max-lg:cursor-pointer transition ease-linear duration-300 lg:hidden'
