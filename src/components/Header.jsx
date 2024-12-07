@@ -12,7 +12,6 @@ const Header = () => {
     };
 
     useEffect(() => {
-
         const toggleMenu = () => {
             if (window.innerWidth < 1024) {
                 document.body.style.overflow = !isMenuOpen ? "" : "hidden";
@@ -42,7 +41,7 @@ const Header = () => {
                                 {NAV_DATA_LINK.map((link, index) => (
                                     <a onClick={toggleMenu}
                                         key={index}
-                                        className="font-normal font-helvetica relative after:absolute hover:after:bg-white hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[2px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-300 text-base leading-custom-base text-white"
+                                        className="font-normal opacity-90 font-helvetica relative after:absolute hover:after:bg-white hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[2px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-300 text-base leading-custom-base text-white"
                                         href={link.href}
                                     >
                                         {link.label}
@@ -73,7 +72,7 @@ const Header = () => {
                                 {NAV_DATA_LINK.map((link, index) => (
                                     <a onClick={toggleMenu}
                                         key={index}
-                                        className="font-normal font-helvetica relative after:absolute hover:after:bg-white hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[2px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-300 text-base leading-custom-base text-white"
+                                        className="font-normal opacity-90 font-helvetica relative after:absolute hover:after:bg-white hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[2px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-300 text-base leading-custom-base text-white"
                                         href={link.href}
                                     >
                                         {link.label}
