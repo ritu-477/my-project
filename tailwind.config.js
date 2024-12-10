@@ -18,24 +18,43 @@ module.exports = {
 
       colors: {
         'deep-blue': "#00171f",
-        'sky-blue': "#00A8E8", 
+        'sky-blue': "#00A8E8",
         'gray': "#CBCBCB",
+        'ink-blue': "#003459",
+        'navy-blue': "#1A2E35",
+        'dark-gray': "#4b4b4b",
+        'light-blue': "#EAF9FFF0",
+        'border-gray': "#EBEBEB",
       },
 
       fontSize: {
+        'custom-base': "28px",
+        'custom-xl': "32px",
+        'custom-2xl': "38px",
         'custom-6xl': "64px",
       },
+
       lineHeight: {
         'custom-sm': "17.6px",
         'custom-base': "18.4px",
-        'custom-6xl': "70.4px",
+        'custom-xl': "21px",
+        'custom-2xl': "23px",
+        'custom-3xl': "25.6px",
+        'custom-4xl': "26.4px",
+        'custom-5xl': "35.2px",
+        'custom-6xl': "41.8px",
+        'custom-7xl': "52.8px",
+        'custom-8xl': "70.4px",
       },
 
       backgroundImage: {
         'hero': "url('/public/assets/images/webp/hero-bg-image.webp')",
       },
-    },
-  },
-  plugins: [],
-}
 
+      boxShadow: {
+        '3xl': "0px_0px_13.9px_0px_#0000001A",
+      },
+    },
+    plugins: [],
+  }
+};

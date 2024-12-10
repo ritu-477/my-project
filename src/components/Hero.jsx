@@ -11,7 +11,7 @@ const Hero = () => {
       <div className='container lg:pt-[109px] md:pt-20 sm:pt-16 pt-8'>
         <div className='flex lg:flex-row gap-4 flex-col w-full'>
           <div className='flex flex-col lg:w-[50%] lg:pt-3 w-full max-lg:justify-center max-lg:items-center'>
-            <h1 className='font-helvetica sm:text-5xl text-3xl xl:text-custom-6xl xl:leading-custom-6xl text-white lg:text-start text-center lg:max-w-[612px]'>Easily Compare <span className='font-bold'>Energy, Gas, And Internet</span> Plans</h1>
+            <h1 className='font-helvetica sm:text-5xl text-3xl xl:text-custom-6xl xl:leading-custom-8xl text-white lg:text-start text-center lg:max-w-[612px]'>Easily Compare <span className='font-bold'>Energy, Gas, And Internet</span> Plans</h1>
             <Description classStyle='text-white lg:max-w-[506px] w-full max-lg:text-center pt-4 opacity-90 pb-6 lg:pb-[42px]' text={'Find and switch to the best energy, gas, and internet plans with ease. Our platform simplifies your search, letting you compare providers and make informed decisions, all in one place.'} />
               <form className='rounded-tr-[100px] rounded-br-[100px] rounded-bl-[70px] bg-white flex justify-between max-w-[476px] w-full py-2 ps-4 sm:ps-[21pz] pr-2 border border-gray' action="">
                 <CustomInput classStyle={'font-normal font-helvetica outline-none !placeholder:text-deep-blue text-deep-blue'} text={'Start typing your address'} type='text' />

@@ -1,6 +1,7 @@
-body{
-    font-family:'helvetica',sans-serif;
+body {
+    font-family: 'helvetica', sans-serif;
 }
+
 @font-face {
     font-family: 'helvetica';
     src: url("../public/assets/font/Helvetica.ttf");
@@ -13,6 +14,30 @@ body{
     font-weight: 700;
 }
 
+.vertical-text {
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00A8E8;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #00A8E8;
+}
+
+.swiper-pagination-bullet-active{
+    background: #00A8E8 !important;
+}
+
 @media(min-width:1180px) and (max-width:1279.99px) {
     .dots {
         max-width: 112px;
@@ -20,3 +45,4 @@ body{
         top: -30px;
     }
 }
+
