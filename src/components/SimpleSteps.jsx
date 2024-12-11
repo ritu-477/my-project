@@ -37,7 +37,7 @@ const SimpleSteps = () => {
                   alt={obj.alt}
                   className="h-[661px] object-cover max-lg:h-[500px] max-md:h-96 max-sm:h-[340px] w-full"/>
                 <div className="absolute flex items-end justify-center bg-light-blue h-full w-full bottom-0 group-hover:bottom-full transition-all duration-500">
-                  <p className="vertical-text lg:pt-8 pt-3 lg:text-custom-xl text-2xl leading-7 lg:leading-custom-5xl text-deep-blue">
+                  <p className="vertical-text lg:pt-8 pt-3 lg:text-custom-xl sm:text-2xl text-lg leading-7 lg:leading-custom-5xl text-deep-blue">
                     <span>{index + 1}</span>. {obj.title}
                   </p>
                 </div>
