@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
-import Heading from '../common/Heading'
-import { ACCORDION_DATA } from '../utils/helper'
-import Icon from '../utils/icons';
+import Heading from '../../common/Heading'
+import { ACCORDION_DATA } from '../../utils/helper'
+import Icon from '../../utils/icons';
 
 const ComprehensiveUtility = () => {
   const [activeIndex, setActiveIndex] = useState(0);

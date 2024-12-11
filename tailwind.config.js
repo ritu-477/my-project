@@ -24,7 +24,10 @@ module.exports = {
         'navy-blue': "#1A2E35",
         'dark-gray': "#4b4b4b",
         'light-blue': "#EAF9FFF0",
-        'border-gray': "#EBEBEB",
+        'border-gray': "#EBEBEB", 
+        'grayish-blue': "#E5E8E9 ",
+        'jet-black': "#010101",
+        'light-gray':"#E5E5E5"
       },
 
       fontSize: {

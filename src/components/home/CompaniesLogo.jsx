@@ -1,5 +1,5 @@
 import React from 'react'
-import { LOGO_LIST } from '../utils/helper'
+import { LOGO_LIST } from '../../utils/helper'
 
 const CompaniesLogo = () => {
   return (

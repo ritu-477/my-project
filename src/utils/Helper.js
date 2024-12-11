@@ -1,12 +1,11 @@
-import Icon from "./icons";
 
 export const NAV_LIST = [
-    { label: 'About', link: '#about' },
-    { label: 'How It Works', link: '#works' },
-    { label: 'Services', link: '#services' },
-    { label: 'Testimonials', link: '#testimonials' },
-    { label: 'Why Us', link: '#why' },
-    { label: 'FAQ', link: '#faq' },
+    { label: 'About', path: '/about' },
+    { label: 'How It Works', path: '/works' },
+    { label: 'Services', path: '/services' },
+    { label: 'Testimonials', path: '/testimonials' },
+    { label: 'Why Us', path: '/whyus' },
+    { label: 'FAQ', path: '/faq' },
 ];
 
 export const LOGO_LIST = [
@@ -77,4 +76,74 @@ export const ACCORDION_DATA = [
         title: 'Bundle Packages',
         content: 'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.',
     },
+];
+
+export const WHY_CHOOSE_CARD_DATA = [
+    {
+        icon: 'simplifiedProcess',
+        title: 'Simplified Comparison Process',
+        description: 'Our intuitive platform lets you compare the best utility providers in one place, helping you make a quick and informed decision.',
+    },
+
+    {
+        icon: 'saveTime',
+        title: 'Save Time and Money',
+        description: 'With up-to-date plans and pricing, you can be sure you’re getting the most competitive rates available.',
+    },
+
+    {
+        icon: 'noService',
+        title: 'No Service Interruptions',
+        description: 'We take care of the entire switching process so you can enjoy a hassle-free experience with zero downtime.',
+    },
+
+    {
+        icon: 'comprehensiveSupport',
+        title: 'Comprehensive Support',
+        description: 'Whether you need assistance selecting a plan or during the switch, our dedicated support team is here to help every step of the way.',
+    },
+];
+
+
+export const TESTIMONIALS_DATA = [
+    {
+        name: 'Cameron',
+        username: '@cameron',
+        image: '/assets/images/webp/cameron-image.webp',
+        rating: '/assets/images/svg/star-svg.svg',
+        description: 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio adipiscing elit vitae vestibulum vestibulum.',
+    },
+
+    {
+        name: 'Ronald',
+        username: '@ronald',
+        image: '/assets/images/webp/ronald-image.webp',
+        rating: '/assets/images/svg/star-svg.svg',
+        description: 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio adipiscing elit vitae vestibulum vestibulum.',
+    },
+
+    {
+        name: 'Jay Shah',
+        username: '@jayshah',
+        image: '/assets/images/webp/jay-image.webp',
+        rating: '/assets/images/svg/star-svg.svg',
+        description: 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio adipiscing elit vitae vestibulum vestibulum.',
+    },
+
+    {
+        name: 'Cameron',
+        username: '@cameron',
+        image: '/assets/images/webp/cameron-image.webp',
+        rating: '/assets/images/svg/star-svg.svg',
+        description: 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio adipiscing elit vitae vestibulum vestibulum.',
+    },
+
+    {
+        name: 'Ronald',
+        username: '@ronald',
+        image: '/assets/images/webp/ronald-image.webp',
+        rating: '/assets/images/svg/star-svg.svg',
+        description: 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio adipiscing elit vitae vestibulum vestibulum.',
+    },
+
 ];

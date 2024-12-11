@@ -1,8 +1,8 @@
 import React from 'react'
-import Heading from '../common/Heading'
-import Description from '../common/Description'
-import CustomButton from '../common/CustomButton'
-import { BENEFITS_DATA } from '../utils/helper'
+import Heading from '../../common/Heading'
+import Description from '../../common/Description'
+import CustomButton from '../../common/CustomButton'
+import { BENEFITS_DATA } from '../../utils/helper'
 
 const SwitchingEnergy = () => {
   return (

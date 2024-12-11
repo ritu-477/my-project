@@ -3,8 +3,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import {Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import Heading from '../common/Heading';
-import { SIMPLE_STEPS_DATA } from '../utils/helper';
+import Heading from '../../common/Heading';
+import { SIMPLE_STEPS_DATA } from '../../utils/helper';
 
 const SimpleSteps = () => {
   return (

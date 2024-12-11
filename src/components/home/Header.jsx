@@ -1,7 +1,9 @@
 import React from 'react';
-import { NAV_LIST } from '../utils/helper';
+import { NAV_LIST } from '../../utils/helper';
 import { useEffect, useState } from 'react';
-import CustomButton from '../common/CustomButton';
+import CustomButton from '../../common/CustomButton';
+import { Link } from 'react-router-dom'; 
+
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,13 +41,14 @@ const Header = () => {
                     <div className='lg:block hidden'>
                         <div className="flex gap-6 items-center">
                             {NAV_LIST.map((list, index) => (
-                                <a onClick={toggleMenu}
-                                    key={index}
-                                    className="font-normal opacity-90 font-helvetica relative after:absolute hover:after:bg-white hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[2px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-300 text-base leading-custom-base text-white"
-                                    href={list.link}
-                                >
-                                    {list.label}
-                                </a>
+                                <Link to={list.path}>
+                                    <a onClick={toggleMenu}
+                                        key={index}
+                                        className="font-normal opacity-90 font-helvetica relative after:absolute hover:after:bg-white hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[2px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-300 text-base leading-custom-base text-white"
+                                        href={list.link}>
+                                        {list.label}
+                                    </a>
+                                </Link>
                             ))}
                         </div>
                     </div>
