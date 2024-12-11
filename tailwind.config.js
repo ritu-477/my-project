@@ -51,9 +51,6 @@ module.exports = {
         'hero': "url('/public/assets/images/webp/hero-bg-image.webp')",
       },
 
-      boxShadow: {
-        '3xl': "0px_0px_13.9px_0px_#0000001A",
-      },
     },
     plugins: [],
   }
