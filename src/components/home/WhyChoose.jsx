@@ -32,8 +32,8 @@ const WhyChoose = () => {
                   }
                 />
                 <div className="mt-[22px]">
-                  <button className="sm:py-3 sm:px-6 py-2 px-4 bg-white rounded-[446px]">
-                    <Icon iconName="utilitiesArrow" />
+                  <button className="sm:py-3 sm:px-6 group hover:bg-sky-700 py-2 px-4 bg-white rounded-[446px] transition-all duration-500">
+                    <Icon className={'group-hover:translate-x-0.5 transition-all duration-500'} iconName="utilitiesArrow" />
                   </button>
                 </div>
               </div>
@@ -44,7 +44,7 @@ const WhyChoose = () => {
               {WHY_CHOOSE_CARD_DATA.map(({ index, icon, title, description }) => (
                 <div
                   key={index}
-                  className="md:p-6 p-4 rounded-[4px] bg-white border border-grayish-blue shadow-[0px_0px_13.9px_0px_#0000001A] sm:h-[286px]">
+                  className="md:p-6 p-4 rounded-[4px] bg-white border border-grayish-blue shadow-[0px_0px_13.9px_0px_#0000001A] hover:shadow-[0px_0px_1px_1px_#0000001A] transition-all duration-500 sm:h-[286px]">
                   <Icon className={'sm:size-[60px] size-10'} iconName={icon} />
                   <div className="flex flex-col">
                     <p className="md:text-2xl lg:max-w-[286px] sm:leading-custom-4xl text-xl leading-custom-2xl pb-2 text-jet-black font-normal pt-[18px]">

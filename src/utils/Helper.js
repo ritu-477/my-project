@@ -101,9 +101,8 @@ export const WHY_CHOOSE_CARD_DATA = [
         icon: 'comprehensiveSupport',
         title: 'Comprehensive Support',
         description: 'Whether you need assistance selecting a plan or during the switch, our dedicated support team is here to help every step of the way.',
-    },
+    }, 
 ];
-
 
 export const TESTIMONIALS_DATA = [
     {
