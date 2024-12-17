@@ -3,7 +3,7 @@ import Description from '../../common/Description';
 import { FAQ_DATA } from '../../utils/helper';
 
 const MyFaq = () => {
-    const [value, setValue] = useState(null);
+    const [value, setValue] = useState(0);
 
     const handleClick = (index) => {
         setValue(value === index ? null : index);
