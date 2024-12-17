@@ -146,3 +146,25 @@ export const TESTIMONIALS_DATA = [
     },
 
 ];
+
+export const FAQ_DATA = [
+    {
+        heading: 'Accordion Heading #one',
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. `,
+    },
+
+    {
+        heading: 'Accordion Heading #two',
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. `
+    },
+
+    {
+        heading: 'Accordion Heading #three',
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. `,
+    },
+
+    {
+        heading: 'Accordion Heading #four',
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. `,
+    },
+];

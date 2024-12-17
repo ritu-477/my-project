@@ -1,9 +1,15 @@
 import React from 'react'
+import MyFaq from '../faq/MyFaq'
 
 const Faq = () => {
   return (
-    <div>Faq</div>
+    <>
+      <MyFaq />
+    </>
   )
 }
 
 export default Faq
+
+
+
