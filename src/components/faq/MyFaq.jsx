@@ -30,7 +30,7 @@ const MyFaq = () => {
                 </span>
                             </button>
                             <div
-                                className={`transition-all pb-2 duration-1000 ease-in-out sm:overflow-hidden overflow-auto ${value === index
+                                className={`transition-all pb-2 duration-1000 ease-in-out overflow-hidden ${value === index
                                         ? 'max-h-[200px]'
                                         : 'max-h-0 opacity-0'}`} >
                                 <Description text={item.description} />
