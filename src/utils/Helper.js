@@ -168,3 +168,26 @@ export const FAQ_DATA = [
         description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. `,
     },
 ];
+
+export const CARD_DATA = [
+    {
+        id:"card-one",
+        heading: 'Lorem',
+        description:
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloremque. Eveniet ullam dolorem quam eligendi nemo, ut optio, voluptas totam explicabo iure a eos exercitationem velit sint nam qui veritatis?', 
+    },
+
+    {
+        id: "card-two",
+        heading: 'Lorem',
+        description:
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloremque. Eveniet ullam dolorem quam eligendi nemo, ut optio, voluptas totam explicabo iure a eos exercitationem velit sint nam qui veritatis?',
+    },
+
+    {
+        id: "card-three",
+        heading: 'Lorem',
+        description:
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloremque. Eveniet ullam dolorem quam eligendi nemo, ut optio, voluptas totam explicabo iure a eos exercitationem velit sint nam qui veritatis?',
+    },
+];
