@@ -2,9 +2,11 @@ import React from 'react';
 import Heading from '../../common/Heading';
 import Description from '../../common/Description';
 import { CARD_DATA } from '../../utils/helper';
-import { NavLink } from 'react-router-dom';
+import { NavLink,useParams } from 'react-router-dom';    
 
 const AboutUs = () => {
+  const { id } = { useParams }
+  console.log("ffffff",id)
 
   return (
     <div className="flex min-h-screen justify-center items-center">
