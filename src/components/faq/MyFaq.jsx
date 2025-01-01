@@ -10,7 +10,7 @@ const MyFaq = () => {
     };
 
     return (
-        <div className="flex items-center justify-center mx-auto pt-24">
+        <div className="flex items-center justify-center mx-auto lg:py-24 py-12">
             <div className="container">
                 <div>
                     {FAQ_DATA.map((item, index) => (
