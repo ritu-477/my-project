@@ -29,9 +29,12 @@ module.exports = {
         'jet-black': "#010101",
         'light-gray': "#E5E5E5",
         'ice-blue': "#EAF9FF",
+        'dark-green': "#026070",
+        'light-green':"#56E3CB",
       },
 
       fontSize: {
+        'custom-sm':"8px",
         'custom-base': "28px",
         'custom-xl': "32px",
         'custom-2xl': "38px",
@@ -39,6 +42,7 @@ module.exports = {
       },
 
       lineHeight: {
+        'custom-xs': "9px",
         'custom-sm': "17.6px",
         'custom-base': "18.4px",
         'custom-xl': "21px",
@@ -49,6 +53,11 @@ module.exports = {
         'custom-6xl': "41.8px",
         'custom-7xl': "52.8px",
         'custom-8xl': "70.4px",
+      },
+
+      fontFamily: {
+        'avantt': "'avantt',sans-serif",
+
       },
 
       backgroundImage: {

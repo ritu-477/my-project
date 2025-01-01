@@ -1,3 +1,4 @@
+import { crossIcon, clickIcon } from '../utils/icons'; 
 
 export const NAV_LIST = [
     { label: 'About', path: '/about' },
@@ -191,3 +192,56 @@ export const CARD_DATA = [
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloremque. Eveniet ullam dolorem quam eligendi nemo, ut optio, voluptas totam explicabo iure a eos exercitationem velit sint nam qui veritatis?',
     },
 ];
+
+export const TABLE_LIST = [
+    {
+        service: "service",
+        rift: "Rift",
+        taxscouts: "Taxcouts",
+        coconut: "Coconut",
+        pie: "Pie",
+    },
+    {
+        service: "Mobile App",
+        rift: crossIcon,
+        taxscouts: crossIcon,
+        coconut: clickIcon,
+        pie: clickIcon,
+    },
+    {
+        service: "Invoicing",
+        rift: crossIcon,
+        taxscouts: crossIcon,
+        coconut: clickIcon,
+        pie: clickIcon,
+    },
+    {
+        service: "Bookkeeping",
+        rift: crossIcon,
+        taxscouts: crossIcon,
+        coconut: clickIcon,
+        pie: clickIcon,
+    },
+    {
+        service: "Accountacy support",
+        rift: clickIcon,
+        taxscouts: clickIcon,
+        coconut: crossIcon,
+        pie: clickIcon,
+    },
+    {
+        service: "Tax Filing",
+        rift: clickIcon,
+        taxscouts: clickIcon,
+        coconut: clickIcon,
+        pie: clickIcon,
+    },
+    {
+        service: "Fee",
+        rift: "Est: £300 per year",
+        taxscouts: "£300 per year",
+        coconut: "£9.00 p/m £108 per year",
+        pie: "£6.99 or £9.99p/m £59.99 review fee £143.87 per year",
+    },
+];
+
