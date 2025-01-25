@@ -4,9 +4,9 @@ import Home from './components/views/Home';
 import About from './components/views/About';
 import FAQ from './components/views/Faq';
 import Works from './components/views/Works'
-import Testimonials from './components/views/Testimonials'
 import Services from './components/views/Services'
 import WhyUs from './components/views/WhyUs'
+import Gilded from './components/views/Gilded';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path='/about/:id' element={<About />} />
           <Route path='/faq' element={<FAQ />} />
           <Route path='/works' element={<Works />} />
-          <Route path='/testimonials' element={<Testimonials />} />
+          <Route path='/gilded' element={<Gilded/>} />
           <Route path='/services/:id' element={<Services />} />
           <Route path='/whyus' element={<WhyUs />} />
         </Routes>

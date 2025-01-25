@@ -57,11 +57,15 @@ module.exports = {
 
       fontFamily: {
         'avantt': "'avantt',sans-serif",
+        'font-poppins':"'poppins',sans-serif",
 
       },
 
       backgroundImage: {
         'hero': "url('/public/assets/images/webp/hero-bg-image.webp')",
+        'gilded-hero': "url('/public/assets/images/webp/gilded-bg.webp')",
+        'utility': "url('/public/assets/images/webp/utilitiy-bg.webp')",
+        'gaming-platform': "url('/public/assets/images/webp/future-bg-image.webp')",
       },
 
     },

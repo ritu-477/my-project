@@ -201,6 +201,7 @@ export const TABLE_LIST = [
         coconut: "Coconut",
         pie: "Pie",
     },
+
     {
         service: "Mobile App",
         rift: crossIcon,
@@ -208,6 +209,7 @@ export const TABLE_LIST = [
         coconut: clickIcon,
         pie: clickIcon,
     },
+
     {
         service: "Invoicing",
         rift: crossIcon,
@@ -215,6 +217,7 @@ export const TABLE_LIST = [
         coconut: clickIcon,
         pie: clickIcon,
     },
+
     {
         service: "Bookkeeping",
         rift: crossIcon,
@@ -222,6 +225,7 @@ export const TABLE_LIST = [
         coconut: clickIcon,
         pie: clickIcon,
     },
+
     {
         service: "Accountacy support",
         rift: clickIcon,
@@ -229,6 +233,7 @@ export const TABLE_LIST = [
         coconut: crossIcon,
         pie: clickIcon,
     },
+
     {
         service: "Tax Filing",
         rift: clickIcon,
@@ -236,6 +241,7 @@ export const TABLE_LIST = [
         coconut: clickIcon,
         pie: clickIcon,
     },
+    
     {
         service: "Fee",
         rift: "Est: £300 per year",
@@ -245,3 +251,30 @@ export const TABLE_LIST = [
     },
 ];
 
+// 
+export const TRACKER_DATA = [
+    { name: "Happy", emoji: "😊", quote: "Happiness is a warm glow from within." },
+    { name: "Sad", emoji: "😢", quote: "Tears are words the heart can't express." },
+    { name: "Excited", emoji: "🤩", quote: "Excitement is the spark of life!" },
+    { name: "Calm", emoji: "😌", quote: "Peace begins with a smile." },
+];
+
+
+export const HEADER_LIST = [
+    {
+        title: 'About',
+        link: '#about'
+    },
+    {
+        title: 'Presale $GILD',
+        link: '#presale'
+    },
+    {
+        title: 'Staking $GILD',
+        link: '#staking'
+    },
+    {
+        title: '$GILD Nodes',
+        link: '#nodes'
+    },
+]
