@@ -64,8 +64,9 @@ module.exports = {
       backgroundImage: {
         'hero': "url('/public/assets/images/webp/hero-bg-image.webp')",
         'gilded-hero': "url('/public/assets/images/webp/gilded-bg.webp')",
-        'utility': "url('/public/assets/images/webp/utilitiy-bg.webp')",
+        'utility': "url('/public/assets/images/webp/utility-bg.webp')",
         'gaming-platform': "url('/public/assets/images/webp/future-bg-image.webp')",
+        // 'token-box':"/public/assets/images/webp/token-bg-box.webp",
       },
 
     },

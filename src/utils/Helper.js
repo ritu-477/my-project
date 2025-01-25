@@ -278,3 +278,62 @@ export const HEADER_LIST = [
         link: '#nodes'
     },
 ]
+
+export const TOKEN_DATA = [
+    {
+        img: "/assets/images/svg/token-cube.svg",
+        alt: "Token Info",
+        heading: "3 Billion",
+        subheading: "GILD Token Info",
+    },
+
+    {
+        img: "/assets/images/svg/token-hand.svg",
+        alt: "Pre Sale Token",
+        heading: "Pre Sale Token",
+    },
+
+    {
+        img: "/assets/images/svg/token-people.svg",
+        alt: "Holders",
+        heading: "100,000+",
+        subheading: "Holders",
+    },
+
+    {
+        img: "/assets/images/svg/token-nft.svg",
+        alt: "NFT Sold",
+        heading: "2,500+",
+        subheading: "NFT Sold",
+    },
+];
+
+export const ROADMAP_DATA = [
+    {
+        title: 'Phase 1',
+        qustion: 'Q1 2022',
+        description: [
+            'Whitelist/Presale Created',
+            'Private Sale',
+            'Public Sale',
+            'Prime Eternal Owner Perks',
+        ],
+    },
+    
+    {
+        title: 'Phase 2',
+        qustion: 'Q2 2022',
+        description: ['Whitelist/Presale Created', 'Private Sale'],
+    },
+
+    {
+        title: 'Phase 3',
+        qustion: 'Q3 2022',
+        description: [
+            'MVP Gameplay Release',
+            'Battle Modes Release',
+            'Land Gameplay Release',
+            'Gear Forging Release',
+        ],
+    },
+];
