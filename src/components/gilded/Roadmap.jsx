@@ -5,7 +5,7 @@ const Roadmap = () => {
    
     return (
         <div
-            className="lg:pt-[98px] lg:pb-[75px] md:py-[60px] py-12 relative max-w-[1920px] mx-auto"
+            className="lg:pt-[92px] lg:pb-[75px] md:py-[60px] py-12 relative max-w-[1920px] mx-auto"
             id="nodes"
         >
             <div className="absolute right-0 top-[43.9%] xl:block hidden">

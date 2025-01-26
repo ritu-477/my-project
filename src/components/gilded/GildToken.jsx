@@ -3,7 +3,7 @@ import { TOKEN_DATA } from '../../utils/helper'
 
 const GildToken = () => {
   return (
-      <div className="bg-token bg-cover bg-no-repeat bg-center lg:pt-[130px] lg:pb-[136px] md:pb-20 py-12" id="staking">
+      <div className="bg-token bg-cover bg-no-repeat bg-center lg:pt-[162px] lg:pb-[136px] md:pb-20 py-12" id="staking">
               <div className="container max-w-[1360px] mx-auto">
               <h2 className="font-Josefin font-bold md:text-5xl sm:text-4xl text-3xl !leading-custom-9xl text-white text-center lg:pb-[59px] pb-10">
                   <span className="text-gradient">$GILD </span>Token Info
