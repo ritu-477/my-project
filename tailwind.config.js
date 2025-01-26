@@ -85,7 +85,6 @@ module.exports = {
         'token': "url('/public/assets/images/webp/token-bg.webp')",
         'buy-uniswap': "url('/public/assets/images/webp/buy-uniswap-bg.webp')",
         'buy-uniswap-mobile': "url('/public/assets/images/webp/buy-now-bg.webp')",
-        'gradient-buy': ' linear-gradient(149.67deg, #815CC8 29.44%, #1BABFE 81.54%)',
       },
 
     },

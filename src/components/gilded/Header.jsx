@@ -27,7 +27,7 @@ const Header = () => {
     return (
         <div className="bg-black bg-opacity-80">
             <div className="max-w-[1360px] flex items-center justify-between pt-[19px] pb-[19.96px] mx-auto w-full container">
-                <a className="max-w-[286px]" href="/">
+                <a className="lg:max-w-[286px] max-w-[150px]" href="/">
                     <img src="/assets/images/webp/nav-logo-gilded.webp" alt="main-logo" />
                 </a>
                 <div
