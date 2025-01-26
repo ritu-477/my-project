@@ -37,7 +37,7 @@ const Hero = () => {
         <div className='bg-gilded-hero bg-no-repeat bg-cover bg-center'>
             <Header />
             <div className='flex flex-col justify-center items-center lg:justify-end lg:min-h-[730px]'>
-                <div className='max-w-[1360px] px-4 mx-auto lg:mb-[129px] max-lg:py-24'>
+                <div className='max-w-[1360px] mx-auto lg:mb-[129px] max-sm:py-12 max-lg:py-24 container'>
                     <h1 className='font-Poppins text-center text-white text-7xl !leading-custom-9xl max-xl:text-6xl max-md:text-5xl max-sm:text-4xl max-w-[1200px] mx-auto'>
                         There are games... And then there are{' '}
                         <span className='text-custom-blue font-poppins'>Gilded</span> Games

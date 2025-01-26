@@ -5,10 +5,10 @@ const Roadmap = () => {
    
     return (
         <div
-            className="lg:pt-[98px] lg:pb-[75px] md:py-[60px] py-12 relative"
+            className="lg:pt-[98px] lg:pb-[75px] md:py-[60px] py-12 relative max-w-[1920px] mx-auto"
             id="nodes"
         >
-            <div className="absolute right-0 top-[44.5%] xl:block hidden">
+            <div className="absolute right-0 top-[44.7%] xl:block hidden">
                 <img
                     src="/assets/images/svg/dashed-line.svg"
                     alt="timeline-line"

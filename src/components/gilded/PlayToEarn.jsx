@@ -2,7 +2,7 @@ import React from "react";
 
 const PlayToEarn = () => {
     return (
-        <div className="lg:pt-[65px] lg:pb-[110px] pb-[48px] relative" id='presale'>
+        <div className="lg:pb-[110px] pb-[48px] relative" id='presale'>
             <div className="absolute left-0 z-[-1] top-[37%] lg:block hidden">
                 <img
                     src="/assets/images/webp/play-earn-ellipse-left.webp"

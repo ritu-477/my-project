@@ -3,8 +3,8 @@ import React from 'react'
 
 const NftUtility = () => {
     return (
-        <div className='bg-utility bg-no-repeat bg-cover bg-center' id='about'>
-            <div className='max-w-[1232px] px-4 mx-auto pt-[105px] pb-[194px] max-lg:py-20 max-md:py-[60px]'>
+        <div className='bg-utility bg-no-repeat bg-cover bg-center pt-[105px] pb-[194px] max-lg:py-20 max-sm:py-12 max-md:py-[60px]' id='about'>
+            <div className='max-w-[1240px] mx-auto container'>
                 <div className='flex lg:flex-row items-center justify-between max-lg:justify-center flex-wrap'>
                     <div className='flex flex-col'>
                         <h2 className='text-white text-5xl !leading-custom-9xl font-bold max-lg:text-center max-md:text-3xl'>
