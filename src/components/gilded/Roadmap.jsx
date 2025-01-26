@@ -24,10 +24,9 @@ const Roadmap = () => {
                         <div
                             key={index}
                             className={`flex flex-col lg:ps-0 sm:ps-[90px] ps-[70px] ${index > 0 ? "lg:mt-0 mt-[30px]" : ""
-                                } lg:pt-[95px] relative`}
-                        >
-                            <div className="relative after:absolute after:content-[''] after:bg-gradient-to-r from-custom-purple to-custom-blue after:shadow-[0px_0px_63.22px_0px_#1BABFE] lg:after:top-[-95px] lg:after:left-0 after:top-0 after:left-[-67px] sm:after:-left-20 lg:after:w-[65px] after:w-[45px] lg:after:h-[62px] after:h-11 after:rounded-[50%]">
-                                <p className="font-Poppins font-semibold sm:text-lg text-base !sm:leading-custom-2xl leading-5 text-white">
+                                } lg:pt-[95px] relative`}>
+                            <div
+                                className={`relative ${index === 0 ? 'xl:ps-[18px] lg:after:w-[65px]' : ''} after:absolute after:content-[''] after:bg-gradient-to-r from-custom-purple to-custom-blue after:shadow-[0px_0px_63.22px_0px_#1BABFE] lg:after:top-[-95px] lg:after:left-0 after:top-0 after:left-[-67px] sm:after:-left-20 lg:after:w-[65px] after:w-[45px] lg:after:h-[62px] after:h-11 after:rounded-[50%]`}>                                <p className="font-Poppins font-semibold sm:text-lg text-base !sm:leading-custom-2xl leading-5 text-white">
                                     {obj.title}
                                 </p>
                                 <p className="font-Poppins font-semibold sm:text-4xl text-2xl text-white !leading-custom-13xl">
