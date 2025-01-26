@@ -1,10 +1,13 @@
 import React from 'react'
 import Hero from '../gilded/Hero'
 import NftUtility from '../gilded/NftUtility'
-import GamingPlatform from '../gilded/GamingPalateForm'
+import GamingPlatForm from '../gilded/GamingPlatForm'
 import PlayToEarn from '../gilded/PlayToEarn'
 import GildToken from '../gilded/GildToken'
 import Roadmap from '../gilded/Roadmap'
+import BuyUniswap from '../gilded/BuyUniswap'
+import PoweredBy from '../gilded/PoweredBy'
+import BackToTop from '../../common/BackToTop'
 
 const Gilded = () => {
   return (
@@ -12,9 +15,12 @@ const Gilded = () => {
       <Hero />
       <NftUtility />
       <PlayToEarn/>
-      <GamingPlatform />
+      <GamingPlatForm/>
       <GildToken />
-      <Roadmap/>
+      <Roadmap />
+      <BuyUniswap />
+      <PoweredBy />
+      <BackToTop/>
         </>
   )
 }

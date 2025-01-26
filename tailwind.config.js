@@ -30,15 +30,24 @@ module.exports = {
         'light-gray': "#E5E5E5",
         'ice-blue': "#EAF9FF",
         'dark-green': "#026070",
-        'light-green':"#56E3CB",
+        'light-green': "#56E3CB",
+        'custom-gray': "#b2b2b2",
+        'custom-purple': "#815CC8",
+        'custom-blue': "#1BABFE",
+        'custom-black': "#c4c4c400",
+        'custom-dark-black': "#FFFFFF1A",
+        'border-gray':"#FFFFFF33",
       },
 
       fontSize: {
-        'custom-sm':"8px",
+        'custom-sm': "8px",
+        'custom-md': "26px",
         'custom-base': "28px",
         'custom-xl': "32px",
         'custom-2xl': "38px",
         'custom-6xl': "64px",
+        "custom-7xl": '22px',
+        "custom-8xl": '40px',
       },
 
       lineHeight: {
@@ -53,11 +62,18 @@ module.exports = {
         'custom-6xl': "41.8px",
         'custom-7xl': "52.8px",
         'custom-8xl': "70.4px",
+        'custom-9xl': '127.5%',
+        'custom-10xl': '156%',
+        'custom-11xl': '164%',
+        'custom-12xl': '179%',
+        'custom-13xl':'129%'
       },
 
       fontFamily: {
         'avantt': "'avantt',sans-serif",
-        'font-poppins':"'poppins',sans-serif",
+        'Poppins': "'Poppins' ,sans serif",
+        'Josefin': "'Josefin sans',sans-serif",
+        'Montserrat': "'Montserrat' ,sans serif",
 
       },
 
@@ -66,7 +82,10 @@ module.exports = {
         'gilded-hero': "url('/public/assets/images/webp/gilded-bg.webp')",
         'utility': "url('/public/assets/images/webp/utility-bg.webp')",
         'gaming-platform': "url('/public/assets/images/webp/future-bg-image.webp')",
-        // 'token-box':"/public/assets/images/webp/token-bg-box.webp",
+        'token': "url('/public/assets/images/webp/token-bg.webp')",
+        'buy-uniswap': "url('/public/assets/images/webp/buy-uniswap-bg.webp')",
+        'buy-uniswap-mobile': "url('/public/assets/images/webp/buy-now-bg.webp')",
+        'gradient-buy': ' linear-gradient(149.67deg, #815CC8 29.44%, #1BABFE 81.54%)',
       },
 
     },

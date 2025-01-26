@@ -251,28 +251,24 @@ export const TABLE_LIST = [
     },
 ];
 
-// 
-export const TRACKER_DATA = [
-    { name: "Happy", emoji: "😊", quote: "Happiness is a warm glow from within." },
-    { name: "Sad", emoji: "😢", quote: "Tears are words the heart can't express." },
-    { name: "Excited", emoji: "🤩", quote: "Excitement is the spark of life!" },
-    { name: "Calm", emoji: "😌", quote: "Peace begins with a smile." },
-];
-
+//Gilded-Games
 
 export const HEADER_LIST = [
     {
         title: 'About',
         link: '#about'
     },
+
     {
         title: 'Presale $GILD',
         link: '#presale'
     },
+
     {
         title: 'Staking $GILD',
         link: '#staking'
     },
+
     {
         title: '$GILD Nodes',
         link: '#nodes'
@@ -311,7 +307,7 @@ export const TOKEN_DATA = [
 export const ROADMAP_DATA = [
     {
         title: 'Phase 1',
-        qustion: 'Q1 2022',
+        question: 'Q1 2022',
         description: [
             'Whitelist/Presale Created',
             'Private Sale',
@@ -322,13 +318,13 @@ export const ROADMAP_DATA = [
     
     {
         title: 'Phase 2',
-        qustion: 'Q2 2022',
+        question: 'Q2 2022',
         description: ['Whitelist/Presale Created', 'Private Sale'],
     },
 
     {
         title: 'Phase 3',
-        qustion: 'Q3 2022',
+        question: 'Q3 2022',
         description: [
             'MVP Gameplay Release',
             'Battle Modes Release',
@@ -336,4 +332,25 @@ export const ROADMAP_DATA = [
             'Gear Forging Release',
         ],
     },
+];
+
+export const BUY_NOW_DATA = [
+    {
+        title: '100,000+ Airdrop',
+    },
+
+    {
+        title: 'NFT $GILD giveaway',
+    },
+    
+    {
+        title: 'Announcement and Games',
+    },
+];
+
+export const POWERED_BY_DATA = [
+    { img: '/assets/images/webp/unreal-engine.webp', alt: 'unreal' },
+    { img: '/assets/images/webp/unswap.webp', alt: 'unswap' },
+    { img: '/assets/images/webp/coin-gecko.webp', alt: 'coin' },
+    { img: '/assets/images/webp/polygon.webp', alt: 'polygon' },
 ];

@@ -1,95 +1,47 @@
-import React from 'react';
+import React from "react";
 import { ROADMAP_DATA } from '../../utils/helper';
 
 const Roadmap = () => {
+   
     return (
-        <div className="overflow-hidden">
-            <div className="container md:pt-[92px] pb-[45px] lg:pb-[75px] relative">
-                <h2 className="font-Josefin font-bold text-[48px] leading-[61.2px] text-white text-center">
-                    <span className="bg-[linear-gradient(90deg,#815CC8_0%,#1BABFE_100%)] inline-block text-transparent bg-clip-text">
-                        Road
-                    </span>
-                    map
+        <div
+            className="lg:pt-[98px] lg:pb-[75px] md:py-[60px] py-12 relative"
+            id="nodes"
+        >
+            <div className="absolute right-0 top-[44.5%] xl:block hidden">
+                <img
+                    src="/assets/images/svg/dashed-line.svg"
+                    alt="timeline-line"
+                    className="2xl:max-w-[654px] w-full max-w-[300px]"
+                />
+            </div>
+            <div className="container max-w-[1360px] mx-auto relative">
+                <h2 className="font-Josefin font-bold md:text-5xl sm:text-4xl text-3xl !leading-custom-9xl text-white text-center xl:pb-[97px] pb-10">
+                    <span className="text-gradient">Road</span>map
                 </h2>
-
-                {/* Desktop Version */}
-                <div className="hidden lg:block">
-                    <hr className="max-w-[975px] w-full border-[2px] border-[#333333] mt-[128px]" />
+                <div className="lg:flex relative justify-between after:absolute after:content-[''] lg:after:left-0 lg:after:right-0 lg:after:top-[34px] after:z-[-1] after:bg-custom-gray lg:after:w-[83%] after:w-[1px] lg:after:h-[1px] after:h-[70%] after:top-0 sm:after:left-[33px] after:left-[25px] max-lg:max-w-full max-xl:max-w-[980px] xl:max-w-[1224px]">
                     {ROADMAP_DATA.map((obj, index) => (
                         <div
                             key={index}
-                            className={`absolute top-[37%] ${index === 0
-                                    ? 'left-0'
-                                    : index === 1
-                                        ? 'left-[36%]'
-                                        : 'right-[23%]'
-                                }`}
+                            className={`flex flex-col lg:ps-0 sm:ps-[90px] ps-[70px] ${index > 0 ? "lg:mt-0 mt-[30px]" : ""
+                                } lg:pt-[95px] relative`}
                         >
-                            <div className="w-[65px] h-[62px] bg-[linear-gradient(90deg,#815CC8_0%,#1BABFE_100%)] rounded-[50%] drop-shadow-[0_0px_15px#1BABFE]"></div>
-                        </div>
-                    ))}
-
-                    <div className="absolute right-[-25%] hidden 2xl:block">
-                        <img src="/assets/images/svg/dashed-line.svg" alt="line" />
-                    </div>
-
-                    <div className="flex justify-between 2xl:row 2xl:justify-start">
-                        {ROADMAP_DATA.map((obj, index) => (
-                            <div
-                                key={index}
-                                className={`2xl:col-${index === 1
-                                        ? '5 flex justify-center'
-                                        : index === 2
-                                            ? '3 flex justify-end'
-                                            : '3'
-                                    }`}
-                            >
-                                <div>
-                                    <p className="font-Poppins font-semibold text-[18px] leading-[23.33px] text-white mt-[69px]">
-                                        {obj.title}
-                                    </p>
-                                    <p className="font-Poppins font-semibold text-[36px] leading-[46.44px] text-white">
-                                        {obj.qustion}
-                                    </p>
-                                    {obj.description.map((milestone, idx) => (
-                                        <div
-                                            key={idx}
-                                            className="flex gap-[15px] items-center mt-[12px]"
-                                        >
-                                            <div className="w-[4px] h-[4px] bg-[#B2B2B2] rounded-[50%]"></div>
-                                            <p className="font-Montserrat font-normal text-[18px] leading-[32px] text-[#B2B2B2] list-disc">
-                                                {milestone}
-                                            </p>
-                                        </div>
-                                    ))}
-                                </div>
+                            <div className="relative after:absolute after:content-[''] after:bg-gradient-to-r from-custom-purple to-custom-blue after:shadow-[0px_0px_63.22px_0px_#1BABFE] lg:after:top-[-95px] lg:after:left-0 after:top-0 after:left-[-67px] sm:after:-left-20 lg:after:w-[65px] after:w-[45px] lg:after:h-[62px] after:h-11 after:rounded-[50%]">
+                                <p className="font-Poppins font-semibold sm:text-lg text-base sm:leading-custom-2xl leading-5 text-white">
+                                    {obj.title}
+                                </p>
+                                <p className="font-Poppins font-semibold sm:text-4xl text-2xl text-white leading-custom-13xl">
+                                    {obj.question}
+                                </p>
+                                {obj.description.map((detail, i) => (
+                                    <div key={i} className="flex items-center sm:pt-[12px] pt-[10px]">
+                                        <div className="size-1 rounded-[50%] bg-custom-gray ms-1"></div>
+                                        <p className="font-Montserrat font-normal sm:text-lg text-base leading-custom-12xl text-white opacity-[70%] ps-2">
+                                            {detail}
+                                        </p>
+                                    </div>
+                                ))}
                             </div>
-                        ))}
-                    </div>
-                </div>
-
-                {/* Mobile Version */}
-                <div className="mt-[36px] lg:hidden">
-                    {ROADMAP_DATA.map((obj, index) => (
-                        <div key={index} className="relative pl-[75px] group pt-[10px]">
-                            <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:sm:h-[246px] before:border-[1px] before:border-[#333333] before:bg-[#333333] sm:before:ml-[1rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-[32px] after:h-[32px] after:md:w-[53px] after:md:h-[53px] after:bg-[linear-gradient(90deg,#815CC8_0%,#1BABFE_100%)] after:rounded-full sm:after:ml-[1rem] after:-translate-x-1/2 after:translate-y-1.5 after:drop-shadow-[0_0px_15px#1BABFE]"></div>
-                            <p className="font-Poppins font-semibold text-[15px] md:text-[18px] leading-[23.33px] text-white mt-[46px] md:mt-[69px]">
-                                {obj.title}
-                            </p>
-                            <p className="font-Poppins font-semibold text-[26px] md:text-[36px] leading-[46.44px] text-white">
-                                {obj.qustion}
-                            </p>
-                            {obj.description.map((milestone, idx) => (
-                                <div
-                                    key={idx}
-                                    className="flex gap-[15px] items-center mt-[6px] md:mt-[12px]"
-                                >
-                                    <div className="w-[4px] h-[4px] bg-[#B2B2B2] rounded-[50%]"></div>
-                                    <p className="font-Montserrat font-normal text-[18px] leading-[32px] text-[#B2B2B2] list-disc">
-                                        {milestone}
-                                    </p>
-                                </div>
-                            ))}
                         </div>
                     ))}
                 </div>
@@ -99,3 +51,4 @@ const Roadmap = () => {
 };
 
 export default Roadmap;
+
