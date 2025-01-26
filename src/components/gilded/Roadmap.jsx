@@ -8,7 +8,7 @@ const Roadmap = () => {
             className="lg:pt-[98px] lg:pb-[75px] md:py-[60px] py-12 relative max-w-[1920px] mx-auto"
             id="nodes"
         >
-            <div className="absolute right-0 top-[44.7%] xl:block hidden">
+            <div className="absolute right-0 top-[43.9%] xl:block hidden">
                 <img
                     src="/assets/images/svg/dashed-line.svg"
                     alt="timeline-line"
@@ -27,10 +27,10 @@ const Roadmap = () => {
                                 } lg:pt-[95px] relative`}
                         >
                             <div className="relative after:absolute after:content-[''] after:bg-gradient-to-r from-custom-purple to-custom-blue after:shadow-[0px_0px_63.22px_0px_#1BABFE] lg:after:top-[-95px] lg:after:left-0 after:top-0 after:left-[-67px] sm:after:-left-20 lg:after:w-[65px] after:w-[45px] lg:after:h-[62px] after:h-11 after:rounded-[50%]">
-                                <p className="font-Poppins font-semibold sm:text-lg text-base sm:leading-custom-2xl leading-5 text-white">
+                                <p className="font-Poppins font-semibold sm:text-lg text-base !sm:leading-custom-2xl leading-5 text-white">
                                     {obj.title}
                                 </p>
-                                <p className="font-Poppins font-semibold sm:text-4xl text-2xl text-white leading-custom-13xl">
+                                <p className="font-Poppins font-semibold sm:text-4xl text-2xl text-white !leading-custom-13xl">
                                     {obj.question}
                                 </p>
                                 {obj.description.map((detail, i) => (
