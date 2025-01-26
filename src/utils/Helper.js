@@ -279,28 +279,28 @@ export const TOKEN_DATA = [
     {
         img: "/assets/images/svg/token-cube.svg",
         alt: "Token Info",
-        heading: "3 Billion",
-        subheading: "GILD Token Info",
+        title: "3 Billion",
+        subTitle: "GILD Token Info",
     },
 
     {
         img: "/assets/images/svg/token-hand.svg",
         alt: "Pre Sale Token",
-        heading: "Pre Sale Token",
+        title: "Pre Sale Token",
     },
 
     {
         img: "/assets/images/svg/token-people.svg",
         alt: "Holders",
-        heading: "100,000+",
-        subheading: "Holders",
+        title: "100,000+",
+        subTitle: "Holders",
     },
 
     {
         img: "/assets/images/svg/token-nft.svg",
         alt: "NFT Sold",
-        heading: "2,500+",
-        subheading: "NFT Sold",
+        title: "2,500+",
+        subTitle: "NFT Sold",
     },
 ];
 
@@ -342,7 +342,7 @@ export const BUY_NOW_DATA = [
     {
         title: 'NFT $GILD giveaway',
     },
-    
+
     {
         title: 'Announcement and Games',
     },

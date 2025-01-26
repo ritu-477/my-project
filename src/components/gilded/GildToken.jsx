@@ -17,11 +17,11 @@ const GildToken = () => {
                                   <div className="max-w-[312px] w-full rounded-[13px] flex items-center flex-col justify-center bg-gradient-to-t from-custom-black to-custom-dark-black border border-border-gray h-[181px]">
                                       <img src={obj.img} alt={obj.alt} />
                                       <h4 className="text-white font-Josefin font-bold md:text-3xl text-2xl leading-7 pt-[9px]">
-                                          {obj.heading}
+                                          {obj.title}
                                       </h4>
-                                      {obj.subheading && (
+                                      {obj.subTitle && (
                                           <p className="font-Josefin text-lg font-normal leading-custom-2xl text-white text-nowrap pt-2">
-                                              {obj.subheading}
+                                              {obj.subTitle}
                                           </p>
                                       )}
                                   </div>
