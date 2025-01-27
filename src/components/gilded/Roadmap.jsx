@@ -6,7 +6,7 @@ const Roadmap = () => {
     return (
         <div
             className="lg:pt-[92px] lg:pb-[75px] md:py-[60px] py-12 relative max-w-[1920px] mx-auto">
-            <div className="absolute right-0 top-[43.5%] xl:block hidden">
+            <div className="absolute right-0 top-[42.4%] xl:block hidden">
                 <img
                     src="/assets/images/svg/dashed-line.svg"
                     alt="timeline-line"
