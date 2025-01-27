@@ -319,7 +319,7 @@ export const ROADMAP_DATA = [
     {
         title: 'Phase 2',
         question: 'Q2 2022',
-        description: ['Whitelist/Presale Created', 'Private Sale'],
+        description: ['Token & Staking Release', 'Staking Gameplay'],
     },
 
     {

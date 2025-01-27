@@ -71,9 +71,9 @@ module.exports = {
 
       fontFamily: {
         'avantt': "'avantt',sans-serif",
-        'Poppins': "'Poppins' ,sans serif",
+        'Poppins': "'Poppins' ,sans-serif",
         'Josefin': "'Josefin sans',sans-serif",
-        'Montserrat': "'Montserrat' ,sans serif",
+        'Montserrat': "'Montserrat' ,sans-serif",
 
       },
 
