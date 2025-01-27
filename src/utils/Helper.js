@@ -335,17 +335,9 @@ export const ROADMAP_DATA = [
 ];
 
 export const BUY_NOW_DATA = [
-    {
-        title: '100,000+ Airdrop',
-    },
-
-    {
-        title: 'NFT $GILD giveaway',
-    },
-
-    {
-        title: 'Announcement and Games',
-    },
+    '100,000+ Airdrop',
+    'NFT $GILD giveaway',
+    'Announcement and Games',
 ];
 
 export const POWERED_BY_DATA = [

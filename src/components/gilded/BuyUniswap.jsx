@@ -15,7 +15,7 @@ const BuyUniswap = () => {
                                 {BUY_NOW_DATA.map((obj, index) => (
                                     <div key={index} className="flex items-center gap-3 pb-[11px]">
                                         <div className="size-1 rounded-[50%] bg-white ms-2"></div>
-                                        <p className="text-xl font-Josefin leading-custom-3xl font-normal text-white">{obj.title}</p>
+                                        <p className="text-xl font-Josefin leading-custom-3xl font-normal text-white">{obj}</p>
                                     </div>
                                 ))}
                             </div>
